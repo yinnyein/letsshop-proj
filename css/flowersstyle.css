@@ -1,0 +1,102 @@
+body{
+    background-color: #fff; 
+}
+#head{
+    padding: 0px;
+}
+#header{
+    padding-left: 90px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color: #F1948A;
+    
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 43px;
+    color: #ffffff;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 5px; 
+    
+} 
+
+#menu {
+    padding: 0px;
+
+} 
+.bg-light {
+
+    background-color: #F1948A  !important;
+    padding-left: 10px;
+    padding-top: 45px;
+    padding-bottom: 20px ;
+    padding-right: 50px;
+
+}
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #ffffff !important;
+    padding: 15px 20px !important; 
+
+}
+
+.nav-link:hover {
+    background-color: #C0C0C0 !important;
+    border-radius: 10px;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #F1948A;
+  margin: 0;
+}
+.subnav-content {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: white;
+  display: none;
+  position: absolute;
+  left: 30px;
+  line-height: 2;
+  background-color: #F1948A;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #C0C0C0;
+  color: black;
+  border-radius: 10px;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
