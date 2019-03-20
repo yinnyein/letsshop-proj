@@ -1,0 +1,255 @@
+body{
+    background-color: #fff; 
+}
+#head{
+    padding: 0px;
+}
+#header{
+    padding-left: 90px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color: #F1948A;
+    
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 43px;
+    color: #ffffff;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 5px; 
+    
+} 
+
+#menu {
+    padding: 0px;
+
+} 
+.bg-light {
+
+    background-color: #F1948A  !important;
+    padding-left: 10px;
+    padding-top: 45px;
+    padding-bottom: 20px ;
+    padding-right: 50px;
+
+}
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #ffffff !important;
+    padding: 15px 20px !important; 
+
+}
+
+.nav-link:hover {
+    background-color: #C0C0C0 !important;
+    border-radius: 10px;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #F1948A;
+  margin: 0;
+}
+.subnav-content {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: white;
+  display: none;
+  position: absolute;
+  left: 30px;
+  line-height: 2;
+  background-color: #F1948A;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #C0C0C0;
+  color: black;
+  border-radius: 10px;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+#slider-container {
+  margin: 0 auto;
+   
+}
+#slider-interior{
+    position: absolute;
+   /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+    color: #fff;
+    font-size: 13px;
+    z-index: 8;
+}
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.carousel-inner7 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.top-text,.top-text2 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.top-text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#interior-container{
+  margin: 0px;
+}
+#sofa-container{
+  margin: 0px;
+}
+.item img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#design-container{
+  margin: 0px;
+}
+#value-container{
+  margin: 0px;
+}
+#value{
+  margin: 0px;
+}
+#winter-container{
+  margin: 0px;
+}
+
+#interiormenu{
+  margin:0 auto;
+}
+
+#interior-box{
+  margin-top: 15px;
+}
+#furniture-box{
+  margin-top: 15px;
+}
+#chair-box{
+  margin-top: 15px;
+}
+
+.navbar2 a {
+  margin-left: 100px;
+  text-align: center;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.site-bottom {
+    background-color: #F1948A  !important;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    color: #ffffff;
+    display: block;
+    height: 250px;
+}
+.container{
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.sidebar-footer {
+    flex-pack: justify;
+    justify-content: space-between;
+    color: var(--white-color);
+    padding: 8rem 0 2rem;
+}
+.widget {
+    margin-bottom: 4rem;
+   
+    box-sizing: border-box;
+    display: block;
+}
+.widget-title {
+    color: var(--white-color);
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.module-title {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+h4 {
+    line-height: 2rem;
+    letter-spacing: 0;
+    display: block;
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+.social-name:hover{
+  color:#DF6C57  ;
+}
