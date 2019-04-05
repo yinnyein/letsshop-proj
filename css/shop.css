@@ -100,18 +100,46 @@ h1{
 .subnav:hover .subnav-content {
   display: block;
 }
-
-#flower-container{
-  margin: 0 auto;
-
+#first-box{
+  padding-top: 20px;
+  margin-left: 10px;
 }
-#girlflower-container{
-  padding:0px;
+
+#second-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+#third-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+#fourth-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+#fifth-box{
+ padding-top: 20px;
+  margin-left: 10px;
+}
+
+h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #000000; 
+  padding-top: 20px;
+  text-align: center;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-top: 5px;
+  text-align: center;
+  color: #808080;
 }
 .animals {
   display: inline-block;
   
-  padding-left: 20px;
+  padding-left: 80px;
   
 }
 
@@ -130,7 +158,6 @@ h1{
   display: none;
   
 }
-
 .btn-add_to_cart_button-product_type_simple{
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
@@ -147,162 +174,9 @@ h1{
     border-radius: 20px;
     margin-left: 57px;
 }
-a, a:hover, a:focus {
+ a:hover, a:focus {
     transition: all 0.3s ease;
     color: #F1948A;
-}
-a {
-    color: #555;
-    text-align: left;
-   
-}
-h5{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color: #000000; 
-  padding-top: 20px;
-  text-align: center;
-}
-.animals p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  padding-top: 5px;
-  text-align: center;
-  color: #808080;
-}
-.carousel-caption1{
-  position: absolute;
-    top: 10%;
-    left: 22px;
-
-}
-#first-flower-container{
-  margin: 0 auto;
-  
-}
-#flower-box{
-  padding-left: 20px;
-  padding-top: 20px;
-
-}
-/*.column{
-  float: left;
-  width: 33.33%;
-}*/
-/*.carousel-inner img{
-  width: 100%;
-  height: 100%;
-
-}
-
-.carousel-item{
-  position: relative;
-  
-  border: 1px solid #FFFFFF;
-  
-  overflow: hidden;
-  width: 800px;
-}
-.carousel-item2 img {
-  max-width: 100%;
-  margin-bottom: 28px;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-
-}
-
-#rose-container{
-  padding: 0px;
-  margin-top: 20px;
-}
-#rose-box{
-  margin-top: 5px;
-}
-#roseflower-container{
-  padding: 0px;
-}
-#rosegirl-container{
-  padding-left:-3px;
-  margin-top: 20px;
-}
-.carousel-inner2 img{
-  width: 100%;
-  height: 100%;
-
-}
-.carousel-item3 img {
-  max-width: 100%;
-  margin-bottom: 28px;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-   
-}
-#wedding-container{
-  padding:0px;
-  margin: 0 auto;
-}
-#wedding-flower-container{
-  padding: 0px;
-}
-#bride-flower-container{
-  padding:0px;
-}
-.carousel-inner3 img{
-  width: 100%;
-  height: 100%;
-
-}
-.carousel-item4 img {
-  max-width: 100%;
-  margin-bottom: 28px;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-   
-}
-#birthday-container{
-  padding: 0px;
-  margin: 0 auto;
-}
-#birthdayflower-container{
-  padding: 0px;
-}
-#birthday-box{
-  padding: 0px;
-}
-#birthdaygirl-container{
-  padding: 0px;
-}
-#message-container{
-  padding: 0px;
-}
-#messenger{
-  margin-left: 130px;
-  padding-left: 185px;
-  padding-top: 30px;
-
-
-}
-#news{
-  font-size: 41px;
-  padding-top: 30px;
-  margin-right: 50px;
-  margin-top: 30px;
-}
-
-.mail{
-  padding-top: 15px;
-  width: 390px;
-}
-.mail-box{
-  border: 2px solid black;
-  padding: 5px;
-  text-align: left;
-}
-.far{
-  padding-left: 190px;
 }
 .navbar2 {
   width: 100%;
@@ -310,11 +184,11 @@ h5{
   background-color: #C0C0C0;
   overflow: auto;
   padding-top: 20px;
-
+  margin-top: 40px;
 
 }
 
-
+/* Navbar links */
 .navbar2 a {
   margin-left: 100px;
   text-align: center;
@@ -323,16 +197,15 @@ h5{
   text-decoration: none;
   font-size: 17px;
 }
-
-
 .site-bottom {
     background-color: #F1948A  !important;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    font-size: 5px;
+    font-size: 25px;
     line-height: 1;
     color: #ffffff;
     display: block;
+    height: 250px;
 }
 .container{
   flex-flow: column wrap;
@@ -365,10 +238,9 @@ h4 {
     line-height: 2rem;
     letter-spacing: 0;
     display: block;
-    font-size: 1.17em;
+    font-size: 1.17rem;
     font-weight: bold;
 }
 .social-name:hover{
-  color:#DF6C57  ;
+  color:#DF6C57;
 }
-*/
