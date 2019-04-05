@@ -7,8 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/shoesstyle.css">
-	<link rel="stylesheet" href="css/shoeresponsive.css">
+	<link rel="stylesheet" href="css/interiorstyle.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
@@ -45,10 +44,10 @@
 							</div>
 						</div> 
 
-						<a class="nav-item nav-link" href="#">SHOP
+						<a class="nav-item nav-link" href="shop.html">SHOP
 						</a>
-						<a class="nav-item nav-link disabled" href="#">BLOG</a>
-						<a class="nav-item nav-link disabled" href="#">CONTACT</a>
+						<a class="nav-item nav-link" href="blog.html">BLOG</a>
+						<a class="nav-item nav-link" href="#">CONTACT</a>
 						<i class="fa fa-shopping-cart" style="font-size:24px;color: #ffffff; padding: 20px 20px;"></i>
 					</div>
 				</div>
@@ -57,21 +56,21 @@
 	</div>
 
 	<div id="slider-container" class="row">
-		<div id="slider-interior" style="margin-top: 10px;margin-left: 48px;" >
+		<!-- <div id="slider-interior"> -->
 			<div id="main-slide" class="carousel slide" data-ride="carousel">
 
                
 				<ul class="carousel-indicators">
 				 <li data-target="#main-slide" data-slide-to="0" class="active"></li> 
-					<li data-target="#main-slide" data-slide-to="1"></li>
+				<li data-target="#main-slide" data-slide-to="1"></li>
 
 				</ul>
 
 
-				<div class="carousel-inner7">
+				<div class="carousel-inner">
 					 <div class="carousel-item active">
 						<img src="img/interior-slide-1.jpg" alt="Los Angeles" width="1075" height="530">
-						<div class="carousel-caption" style="position: absolute;top: 10%;left: 60px;">
+						<div class="carousel-caption" >
 							<h2 style="font-family:'Merriweather', serif;text-align: left;"> <span style="color:#000000;">INTERIOR </span> <span style="color:#8d7B79;"> MODERN </span> <span style="color:#ccc;"> & </span> <span style="color:#f68d10";> DESIGN </span>
 							</h2>
 							<hr style="width: 80px;background-color:#000000;
@@ -79,19 +78,19 @@
 							
 							<p style="color:#000000;text-align: left;">Vestibulum sapien proin quam etiam ultrices suspendisse in justo eu molestiae sequi quam voluptatem
 								<br> Molestias, dignissimos unde omnis, doloribus amet nemo ratione! Laborum.</p>
-							<button type="button" class="btn btn-dark" style="margin: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px;margin-left: -745px;margin-top: 10px;">Learn More</button>
+							<button type="button" class="btn btn-dark" style="margin: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px;margin-left: -807px;margin-top: 10px;">Learn More</button>
 							</div>
 					</div>
 					<div class="carousel-item">
 						<img src="img/interior-slide2.jpg" alt="Chicago" width="1075" height="530">
-						<div class="carousel-caption" style="position: absolute;top: 10%;left: 50px;">
-							<h2 style="font-family:'Merriweather', serif;margin-left: 163px;"> <span style="color:#000000;">FAMOUS BRANDS AT </span> <span style="color:#dc143c;"> LOW PRICES </span>
+						<div class="carousel-caption1" >
+							<h2 style="font-family:'Merriweather', serif;"> <span style="color:#000000;">FAMOUS BRANDS AT </span> <span style="color:#dc143c;"> LOW PRICES </span>
 							</h2>
 							<hr style="width: 80px;background-color:#000000;
-							    margin-left: 440px;" >
+							    margin-left: 220px;" >
 							
-							<p style="color:#000000;margin-left: 163px;">Vestibulum sapien proin quam etiam ultrices suspendisse in justo eu<br>magna luctus suscipit sed lectus integer euismod.</p>
-							<button type="button" class="btn btn-dark" style="margin: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px;margin-right: -115px;margin-top: 10px;">Learn More</button>
+							<p style="color:#000000;margin-left: 93px;">Vestibulum sapien proin quam etiam ultrices suspendisse in justo eu<br>magna luctus suscipit sed lectus integer euismod.</p>
+							<button type="button" class="btn btn-dark" style="margin: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px;margin-left:205px;margin-top: 10px;">Learn More</button>
 						</div>
 					</div>
 
@@ -113,11 +112,13 @@
 
 		 </div> 
     </div>	
-    <div id="interior-container" class="row">
-     <div id="sofa-container" class="column">
-     	<div class="item" style="margin-left: 160px;margin-top: 6px;">
-     		<img alt="Interior" src="img/interior-banner1.jpg" width="340" height="566">
-     		<div class="carousel-caption" style="position: absolute;top:3%;left: -45px;">
+     
+    <div id="sofa-container" class="row"> 
+      <div id="sofa" class="col-sm-3"> 
+     	
+     		<img alt="Interior" src="img/interior-banner1.jpg" width="380" height="566">
+     	
+     		 <div class="carousel-caption2">
 
             <h2 style="font-family:'Merriweather', serif; font-size: 30px;    letter-spacing: 1px; color:#000000;padding-left: 15px;">Couch</h2>
 
@@ -125,26 +126,27 @@
 
             <button type="button" class="btn btn-outline-dark" style="margin: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px;margin-left:15px;margin-top:5px;">Learn More</button>
 
-            </div>
-     	</div>
+            </div> 
+      
      </div>
+  
+ 
+        <div id="design-container" class="col-sm-4">
+     	
+     		<img alt="Interior" src="img/interior-banner2.jpg" width="370" height="269">
 
-        <div id="design-container" class="column">
-     	<div class="item" style="margin-left: 70px;margin-top: 6px;">
-     		<img alt="Interior" src="img/interior-banner2.jpg" width="340" height="269">
-
-            <div class="carousel-caption" style="position: absolute;top:49%;left: 110px;">
+            <div class="carousel-caption3" >
             <h2 style="font-family:'Merriweather', serif; font-size: 28px;  line-height: 1; margin: 0;  letter-spacing: 1px; text-transform: uppercase;"> <span style= "color:#000000;">Beautiful </span> <span style="color: #ccc;">&amp;</span><br><span style="color: #dc143c;padding-left: 30px;">unique</span></h2>
 
             <p style="float: none; font-family: 'montserrat'; color: #777; line-height: 1; margin: 8px 0 0; letter-spacing: 2px; ">Limited Collection</p>
             </div>
-        </div>
-    
-    <div id="value-container" class="row"> 
-    	<div id="value" class="column">
-          <div class="item" style="margin-left:85px;margin-top: 4px;">
-     		<img alt="Interior" src="img/interior-banner3.jpg" width="340" height="265">
-     		<div class="carousel-caption" style="position: absolute;top:10%;right: -70px;">
+       
+   
+   <div id="value-container" class="row"> 
+    	 <div id="value" class="col"> 
+        
+     		<img alt="Interior" src="img/interior-banner3.jpg" width="370" height="265">
+     		<div class="carousel-caption4">
 
 
             <h2 style="font-family:'Merriweather', serif;  font-size: 25px; letter-spacing: 1px;"><span style="color: #dc143c;">B</span><span style="color:#000000;">est </span> <span style="color: #dc143c;">V</span><span style="color:#000000;">alues</span></h2>
@@ -154,22 +156,23 @@
             </div>
      		</div>
      	</div>
-     	</div>
-     </div>
-     <div id="winter-container" class="column">
-     	<div class="item" style="margin-left: -18px;margin-top: 6px;">
-     		<img alt="Interior" src="img/interior-banner4.jpg" width="334" height="566">
-            <div class="carousel-caption" style="position: absolute;top:3%;left: 45px;">
+    </div>
+     
+    <div id="winter-container" class="row">
+     	<div id="winter" class="col">
+     		<img alt="Interior" src="img/interior-banner4.jpg" width="370" height="566">
+            <div class="carousel-caption9" >
 
             <h2 style="font-family:'Merriweather', serif;  font-size: 30px;  margin: 0;  letter-spacing: 1px;"><span style="color:#000000;">Interior</span></h2>
 
             <p style="float: none; color: #777;font-family: 'montserrat';  line-height: 1; padding-top: 10px; letter-spacing: 2px; ">Winter Collection</p>
 
            <button type="button" class="btn btn-outline-dark" style="margin: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px;margin-left:15px;margin-top:5px;">Learn More</button>
+           </div>
+       </div>
 </div>
-</div>
-     	</div>	
-	</div>
+     		
+	</div> 
 
 	<div id="interiormenu" class="row">
 	<div class="col">
@@ -177,7 +180,7 @@
 		<hr style="background-color: #333;text-align: center; width: 100px;">
 		<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	</div>
-</div>
+    </div>
 	<div id="interior-box" class="row">	
 
 	<div class="col-md-2.4 col-lg-2.4 col-xl-2.4 white">
@@ -265,7 +268,7 @@
 	</div>
     </div>
 
-    <div id="chair-box" class="row">
+   <div id="chair-box" class="row">
     	<div class="col-md-2.4 col-lg-2.4 col-xl-2.4 white">
 		<div class="animals">
 			<img class="animal-default" src="img/product18.jpg" width="321" height="433" alt="front1">	
@@ -293,7 +296,7 @@
 		</div>
 	</div>
 
-    </div>
+    </div> 
 
     <div class="navbar2">
 			<a href="#"><i class="fab fa-twitter"></i>
@@ -319,28 +322,28 @@
 			<div class="container">
 				<div class="page-footer font-small blue pt-4">
 
-					<!-- Footer Links -->
+					
 					<div class="container-fluid text-center">
 
-						<!-- Grid row -->
+						
 						<div class="row">
 
-							<!-- Grid column -->
+							
 							<div class="col-md-3 mt-md-0 mt-3">
 
-								<!-- Content -->
+							
 								<h5 class="text-uppercase">Footer Content</h5>
 								<p>Here you can use rows and columns here to organize your footer content.</p>
 
 							</div>
-							<!-- Grid column -->
+							
 
 							<hr class="clearfix w-100 d-md-none pb-4">
 
-							<!-- Grid column -->
+							
 							<div class="col-md-3 mb-md-0 mb-5">
 
-								<!-- Links -->
+								
 								<h5 class="text-uppercase">Links</h5>
 
 								<ul class="list-unstyled">
@@ -359,12 +362,10 @@
 								</ul>
 
 							</div>
-							<!-- Grid column -->
-
-							<!-- Grid column -->
+							
 							<div class="col-md-3 mb-md-0 mb-5">
 
-								<!-- Links -->
+								
 								<h5 class="text-uppercase">Links</h5>
 
 								<ul class="list-unstyled">
@@ -383,16 +384,16 @@
 								</ul>
 
 							</div>
-							<!-- Grid column -->
+							
 
 						</div>
-						<!-- Grid row -->
+					
 
 					</div>
 
 				</div>
 			</div>
-		</div>
+		</div> --> 
 </body>
 </html>	
 

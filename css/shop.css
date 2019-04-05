@@ -1,0 +1,246 @@
+body{
+    background-color: #fff; 
+}
+#head{
+    padding: 0px;
+}
+#header{
+    padding-left: 90px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color: #F1948A;
+    
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 43px;
+    color: #ffffff;
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 5px; 
+    
+} 
+
+#menu {
+    padding: 0px;
+
+} 
+.bg-light {
+
+    background-color: #F1948A  !important;
+    padding-left: 10px;
+    padding-top: 45px;
+    padding-bottom: 20px ;
+    padding-right: 50px;
+
+}
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #ffffff !important;
+    padding: 15px 20px !important; 
+
+}
+
+.nav-link:hover {
+    background-color: #C0C0C0 !important;
+    border-radius: 10px;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 20px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #F1948A;
+  margin: 0;
+}
+.subnav-content {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: white;
+  display: none;
+  position: absolute;
+  left: 30px;
+  line-height: 2;
+  background-color: #F1948A;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #C0C0C0;
+  color: black;
+  border-radius: 10px;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+#first-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+#second-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+#third-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+#fourth-box{
+  padding-top: 20px;
+  margin-left: 10px;
+}
+#fifth-box{
+ padding-top: 20px;
+  margin-left: 10px;
+}
+
+h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #000000; 
+  padding-top: 20px;
+  text-align: center;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding-top: 5px;
+  text-align: center;
+  color: #808080;
+}
+.animals {
+  display: inline-block;
+  
+  padding-left: 80px;
+  
+}
+
+.animal-hover {
+  display: none;
+  
+}
+
+.animals:hover > .animal-hover {
+  display: inline;
+
+  
+}
+
+.animals:hover > .animal-default {
+  display: none;
+  
+}
+.btn-add_to_cart_button-product_type_simple{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    padding: 8px 10px;
+    margin-top: 5px;
+    color: #999;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    letter-spacing: 0.3px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-left: 57px;
+}
+ a:hover, a:focus {
+    transition: all 0.3s ease;
+    color: #F1948A;
+}
+.navbar2 {
+  width: 100%;
+  height: 60px;
+  background-color: #C0C0C0;
+  overflow: auto;
+  padding-top: 20px;
+  margin-top: 40px;
+
+}
+
+/* Navbar links */
+.navbar2 a {
+  margin-left: 100px;
+  text-align: center;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.site-bottom {
+    background-color: #F1948A  !important;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    color: #ffffff;
+    display: block;
+    height: 250px;
+}
+.container{
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.sidebar-footer {
+    flex-pack: justify;
+    justify-content: space-between;
+    color: var(--white-color);
+    padding: 8rem 0 2rem;
+}
+.widget {
+    margin-bottom: 4rem;
+   
+    box-sizing: border-box;
+    display: block;
+}
+.widget-title {
+    color: var(--white-color);
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.module-title {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+h4 {
+    line-height: 2rem;
+    letter-spacing: 0;
+    display: block;
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+.social-name:hover{
+  color:#DF6C57;
+}
