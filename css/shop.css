@@ -200,7 +200,9 @@ p{
 .site-bottom {
     background-color: #F1948A  !important;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', serif;
+   /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Lobster', cursive;
     font-size: 25px;
     line-height: 1;
     color: #ffffff;
@@ -234,13 +236,22 @@ p{
     text-transform: uppercase;
     margin-top: 0;
 }
-h4 {
+li{
+  padding-top: 10px;
+}
+li a{
+  color: #fff;
+}
+li a:hover{
+  color:#fff;
+}
+/*h4 {
     line-height: 2rem;
     letter-spacing: 0;
     display: block;
     font-size: 1.17rem;
     font-weight: bold;
-}
+}*/
 .social-name:hover{
-  color:#DF6C57;
+  color:#DF6C57  ;
 }
