@@ -189,7 +189,7 @@ h5{
   float: left;
   width: 33.33%;
 }*/
-/*.carousel-inner img{
+.carousel-inner img{
   width: 100%;
   height: 100%;
 
@@ -211,20 +211,25 @@ h5{
   transition: all 0.3s;
 
 }
-
+.carousel-caption2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
 #rose-container{
   padding: 0px;
-  margin-top: 20px;
+ 
 }
 #rose-box{
-  margin-top: 5px;
+  padding: 0px;
+  margin-left: 20px;
 }
 #roseflower-container{
   padding: 0px;
 }
 #rosegirl-container{
   padding-left:-3px;
-  margin-top: 20px;
+  
 }
 .carousel-inner2 img{
   width: 100%;
@@ -233,7 +238,6 @@ h5{
 }
 .carousel-item3 img {
   max-width: 100%;
-  margin-bottom: 28px;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -241,13 +245,21 @@ h5{
 }
 #wedding-container{
   padding:0px;
-  margin: 0 auto;
+
 }
 #wedding-flower-container{
   padding: 0px;
 }
 #bride-flower-container{
   padding:0px;
+}
+#wedding-flower-box{
+  margin-left: 60px;
+}
+.carousel-caption3{
+  position: absolute;
+  top:30%;
+  left:10%;
 }
 .carousel-inner3 img{
   width: 100%;
@@ -256,7 +268,6 @@ h5{
 }
 .carousel-item4 img {
   max-width: 100%;
-  margin-bottom: 28px;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -264,31 +275,34 @@ h5{
 }
 #birthday-container{
   padding: 0px;
-  margin: 0 auto;
+
 }
 #birthdayflower-container{
   padding: 0px;
 }
 #birthday-box{
-  padding: 0px;
+  margin-left: 25px;
 }
 #birthdaygirl-container{
   padding: 0px;
+}
+.carousel-caption4{
+  position: absolute;
+  top: 25%;
+  left: 45%;
 }
 #message-container{
   padding: 0px;
 }
 #messenger{
-  margin-left: 130px;
-  padding-left: 185px;
+  margin-left: 20px;
+
   padding-top: 30px;
 
 
 }
 #news{
   font-size: 41px;
-  padding-top: 30px;
-  margin-right: 50px;
   margin-top: 30px;
 }
 
@@ -301,9 +315,9 @@ h5{
   padding: 5px;
   text-align: left;
 }
-.far{
+/*.far{
   padding-left: 190px;
-}
+}*/
 .navbar2 {
   width: 100%;
   height: 60px;
@@ -313,8 +327,6 @@ h5{
 
 
 }
-
-
 .navbar2 a {
   margin-left: 100px;
   text-align: center;
@@ -323,16 +335,17 @@ h5{
   text-decoration: none;
   font-size: 17px;
 }
-
-
 .site-bottom {
     background-color: #F1948A  !important;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 5px;
+    font-family: 'Lato', serif;
+   /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Lobster', cursive;
+    font-size: 25px;
     line-height: 1;
     color: #ffffff;
     display: block;
+    height: 250px;
 }
 .container{
   flex-flow: column wrap;
@@ -361,14 +374,22 @@ h5{
     text-transform: uppercase;
     margin-top: 0;
 }
-h4 {
+li{
+  padding-top: 10px;
+}
+li a{
+  color: #fff;
+}
+li a:hover{
+  color:#fff;
+}
+/*h4 {
     line-height: 2rem;
     letter-spacing: 0;
     display: block;
-    font-size: 1.17em;
+    font-size: 1.17rem;
     font-weight: bold;
-}
+}*/
 .social-name:hover{
   color:#DF6C57  ;
 }
-*/
